@@ -94,16 +94,16 @@ def delete_session(d_session):
 def get_default_session_settings():
     return \
     {
-        "prompt_format": "Chat-RP",
-        "roles": [ "User", "Assistant", "", "", "", "", "", "" ],
+        "prompt_format": "Deepseek-instruct",
         "system_prompt_default": True,
-        "system_prompt": "This is a chat between a curious user and a helpful AI assistant.",
-        "maxtokens": 1024,
+        "roles": [ "Sinan", "LLM", "", "", "", "", "", "" ],
+        "system_prompt": "You are an AI programming assistant, utilizing the DeepSeek Coder model, developed by DeepSeek Company, and you only answer questions related to computer science. You answer every question.",
+        "maxtokens": 1024 * 2,
         "chunktokens": 512,
         "stop_newline": False,
-        "temperature": 0.8,
-        "top_k": 50,
-        "top_p": 0.8,
+        "temperature": 0.0,
+        "top_k": 1.0,
+        "top_p": 0.0,
         "min_p": 0.0,
         "tfs": 0.0,
         "mirostat": False,
