@@ -30,7 +30,7 @@ api_lock_cancel = Lock()
 
 parser = argparse.ArgumentParser(description="ExUI, chatbot UI for ExLlamaV2")
 parser.add_argument("-host", "--host", type = str, help = "IP:PORT eg, 0.0.0.0:5000", default = "localhost:5000")
-parser.add_argument("-d", "--dir", type = str, help = "Location for user data and sessions, default: ~/exui", default = "~/exui")
+parser.add_argument("-d", "--dir", type = str, help = "Location for user data and sessions, default: ~/.exui", default = "~/.exui")
 parser.add_argument("-v", "--verbose", action = "store_true", help = "Verbose (debug) mode")
 parser.add_argument("-nb,", "--no_browser", action = "store_true", help = "Don't launch browser on startup")
 args = parser.parse_args()
