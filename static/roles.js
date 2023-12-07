@@ -25,8 +25,8 @@ export const fallbackAvatar = "/static/gfx/avatar_notcat.png";
 export const fallbackColor = "rgba(120, 120, 120, 255)";
 
 export const instructAvatars = [
-    "/static/gfx/avatar_notcat.png",
-    "/static/gfx/avatar_notcat.png"
+    "/static/gfx/sinan.png",
+    "/static/gfx/terminal.png"
     //"/static/gfx/avatar_frog.png",
     //"/static/gfx/avatar_cat.png",
 ];
